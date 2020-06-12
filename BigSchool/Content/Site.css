@@ -8,7 +8,17 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-
+.navbar-inverse {
+    background-color: #b6ff00;
+    border-color: #000000;
+}
+.narbar-inverse .narbar-nar > li > a
+{
+    color:white;
+}
+.narbar-inverse .narbar-brand{
+    color:white;
+}
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */

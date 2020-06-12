@@ -1,4 +1,4 @@
-﻿using BigSchool.Models;
+﻿    using BigSchool.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -14,6 +14,7 @@ namespace BigSchool.ViewModels
         [FutureDate]
         public string Date { get; set; }
         [Required]
+        [ValidTime]
         public string Time { get; set; }
         [Required]
         public byte Category { get; set; }
