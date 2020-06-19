@@ -14,6 +14,7 @@ namespace BigSchool.Migrations
         
         public override void Down()
         {
+
         }
     }
 }

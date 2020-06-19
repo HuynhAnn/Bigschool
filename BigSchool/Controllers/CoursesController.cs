@@ -44,7 +44,7 @@ namespace BigSchool.Controllers
                 CategoryId =viewModel.Category,
                 Place =viewModel.Place
             };
-            _dbContext.Couser.Add(course);
+            _dbContext.Courses.Add(course);
             _dbContext.SaveChanges();
             return RedirectToAction("Index","Home");
         }
